@@ -1,0 +1,43 @@
+{
+  "_id": "page.person-signing-for-respondent",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.person-signing-for-respondent--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.person-signing-for-respondent--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "label": "an officer of the company",
+          "show": {
+            "identifier": "owned_registered_by_company",
+            "operator": "is",
+            "value": "auto_value__10"
+          },
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.person-signing-for-respondent--radios.auto_name__1--radio.auto_value__4--2",
+          "_type": "radio",
+          "label": "a Partner of the firm",
+          "value": "auto_value__4"
+        },
+        {
+          "_id": "page.person-signing-for-respondent--radios.auto_name__1--radio.auto_value__4--3",
+          "_type": "radio",
+          "label": "a Litigation friend acting on behalf of a protected party within the meaning of the Mental Capacity Act 2005",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "Who is signing on behalf of the respondent?",
+      "name": "person_signing_on_behalf_of_respondent"
+    }
+  ],
+  "show": {
+    "identifier": "statement_of_truth",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "person-signing-for-respondent"
+}

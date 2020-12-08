@@ -1,0 +1,39 @@
+{
+  "_id": "page.how-can-we-contact-you",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.how-can-we-contact-you--radios.auto_name__9",
+      "_type": "radios",
+      "hint": "Select one option.",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how-can-we-contact-you--radios.auto_name__9--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Email",
+          "value": "contact_preference_email"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how-can-we-contact-you--radios.auto_name__9--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Phone",
+          "value": "contact_preference_phone"
+        }
+      ],
+      "legend": "How would you prefer to be contacted?",
+      "name": "applicant_contact_preference"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.your-email-address",
+    "page.your-phone-number"
+  ],
+  "url": "contact-preference"
+}

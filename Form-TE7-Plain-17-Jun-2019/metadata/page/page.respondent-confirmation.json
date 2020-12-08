@@ -1,0 +1,36 @@
+{
+  "_id": "page.respondent-confirmation",
+  "_type": "page.form",
+  "actionType": "confirm",
+  "body": "I confirm that the information supplied in this application is truthful and accurate to the best of my knowledge.",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.respondent-confirmation--text.auto_name__3",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "respondent-confirmation-full-name"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.respondent-confirmation--date.auto_name__4",
+      "_type": "date",
+      "hint": "For example, 27 6 2019",
+      "label": "Date",
+      "name": "respondent-confirmation-date"
+    }
+  ],
+  "heading": "Confirmation",
+  "show": {
+    "identifier": "who-is-making-this-application",
+    "operator": "is",
+    "value": "respondent-is-making-application"
+  },
+  "url": "respondent-confirmation"
+}

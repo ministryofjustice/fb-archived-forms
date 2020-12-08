@@ -1,0 +1,28 @@
+{
+  "_id": "page.contact-preferences",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.contact-preferences--radios.auto_name__2",
+      "_type": "radios",
+      "hint": "Select one option",
+      "items": [
+        {
+          "_id": "page.contact-preferences--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Email",
+          "value": "contact_preferences_email"
+        },
+        {
+          "_id": "page.contact-preferences--radios.auto_name__2--radio.auto_value__2",
+          "_type": "radio",
+          "label": "By post",
+          "value": "contact_preferences_post"
+        }
+      ],
+      "legend": "How would you prefer to be contacted?",
+      "name": "contact_preference"
+    }
+  ],
+  "url": "contact-preference"
+}

@@ -1,0 +1,46 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "body": "You must file this statement by the date shown on the Order for recovery (form TE3).",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "### Before you start\r\n\r\nTo complete this form you will need the form TE3 Order for recovery of unpaid penalty charge."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "If you need help completing this form, contact the Traffic Enforcement Centre on 0300 123 1059."
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
+    }
+  ],
+  "heading": "TE7: Application to file a statement out of time or extension of time (parking)",
+  "lede": "Use this form to apply to file a statement out of time or ask for an extension of time for an unpaid parking penalty charge.",
+  "steps": [
+    "page.penalty-charge-details",
+    "page.your-details",
+    "page.vehicle-owned-by-company",
+    "page.out-of-time-or-need-more-time",
+    "page.statement-of-truth",
+    "page.respondent-statement-of-truth",
+    "page.person-signing-for-respondent",
+    "page.statement-of-truth--2",
+    "page.how-can-we-contact-you",
+    "page.check-your-answers",
+    "page.application-complete"
+  ],
+  "url": "/"
+}

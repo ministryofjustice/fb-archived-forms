@@ -1,0 +1,23 @@
+{
+  "_id": "page.under-18",
+  "_type": "page.exit",
+  "body": "You can't be a magistrate if you are:\r\n\r\n* under 18 years old\r\n* seeking asylum or leave to remain\r\n* work in a restricted occupation",
+  "heading": "Sorry, you can't be a magistrate",
+  "lede": "You must be meet eligibility criteria to be a magistrate.",
+  "show": {
+    "conditionsType": "exactly",
+    "exactly": [
+      {
+        "identifier": "auto_name__22",
+        "operator": "is",
+        "value": "auto_value__12"
+      },
+      {
+        "identifier": "auto_name__3",
+        "operator": "is",
+        "value": "auto_value__1"
+      }
+    ]
+  },
+  "url": "under-18"
+}

@@ -1,0 +1,33 @@
+{
+  "_id": "page.hear-about-us",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.hear-about-us--radios.auto_name__6",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.hear-about-us--radios.auto_name__6--radio.auto_value__23",
+          "_type": "radio",
+          "label": "Word of mouth",
+          "value": "auto_value__23"
+        },
+        {
+          "_id": "page.hear-about-us--radios.auto_name__6--radio.auto_value__24",
+          "_type": "radio",
+          "label": "Court leaflet or notice",
+          "value": "auto_value__24"
+        },
+        {
+          "_id": "page.hear-about-us--radios.auto_name__6--radio.auto_value__25",
+          "_type": "radio",
+          "label": "Friend or relative",
+          "value": "auto_value__25"
+        }
+      ],
+      "legend": "How did you hear about the role? (optional)",
+      "name": "auto_name__6"
+    }
+  ],
+  "url": "hear-about-us"
+}

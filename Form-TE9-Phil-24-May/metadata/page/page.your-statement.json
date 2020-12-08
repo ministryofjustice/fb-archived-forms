@@ -1,0 +1,58 @@
+{
+  "_id": "page.your-statement",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.your-statement--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.your-statement--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "I did not receive the Notice to owner/Penalty charge notice",
+          "name": "statement_non_london_borough_no_penalty_charge_notice"
+        },
+        {
+          "_id": "page.your-statement--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "label": "I made representations about the penalty charge to the enforcing authority concerned within 28 days of the service of the notice to owner, but did not receive a rejection notice",
+          "name": "statement_non_london_borough_no_rejection_notice"
+        },
+        {
+          "_id": "page.your-statement--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "I appealed to an adjudicator against the Charging Authority's decision to reject my representation, within 28 days of service of the rejection notice, but have had no response to my appeal",
+          "name": "statement_non_london_borough_no_appeal_response"
+        },
+        {
+          "_id": "page.your-statement--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "label": "I appealed to an adjudicator against the Charging Authority's decision to reject my representation, within 28 days of service of the rejection notice, but the appeal had not been determined by the time the charge certificate had been served.",
+          "name": "statement_non_london_borough_appeal_not_determined"
+        },
+        {
+          "_id": "page.your-statement--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "I appealed to an adjudicator against the Charging Authority's decision to reject my representation, and the appeal was determined in my favour.",
+          "name": "statement_non_london_borough_won_appeal"
+        },
+        {
+          "_id": "page.your-statement--checkboxes--checkbox.auto_name__5",
+          "_type": "checkbox",
+          "label": "The penalty charge has been paid in full",
+          "name": "statement_non_london_borough_charge_paid"
+        }
+      ],
+      "legend": "Choose all options that apply"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Your statement",
+  "show": {
+    "identifier": "london_borough_parking_contravention",
+    "operator": "is",
+    "value": "london_borough_parking_contravention_no"
+  },
+  "steps": [],
+  "url": "your-statement"
+}

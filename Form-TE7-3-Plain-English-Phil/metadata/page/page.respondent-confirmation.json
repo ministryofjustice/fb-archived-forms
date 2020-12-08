@@ -1,0 +1,42 @@
+{
+  "_id": "page.respondent-confirmation",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.respondent-confirmation--radios.auto_name__4",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.respondent-confirmation--radios.auto_name__4--radio.auto_value__4",
+          "_type": "radio",
+          "label": "I confirm that the information supplied in this application is truthful and accurate to the best of my knowledge.",
+          "value": "respondent_confirmation_of_information"
+        }
+      ],
+      "legend": "Confirm the information provided",
+      "name": "respondent_confirm_information_provided"
+    },
+    {
+      "_id": "page.respondent-confirmation--text.auto_name__3",
+      "_type": "text",
+      "label": "**Your full name**",
+      "name": "respondent_full_name"
+    },
+    {
+      "_id": "page.respondent-confirmation--date.auto_name__5",
+      "_type": "date",
+      "label": "**Your date of birth**",
+      "name": "respondent_date_of_birth"
+    }
+  ],
+  "heading": "Confirmation",
+  "show": {
+    "identifier": "select_myself_or_on_behalf_of_respondent",
+    "operator": "is",
+    "value": "respondent_completing_form"
+  },
+  "url": "/respondent-confirmation"
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "page.reason-for-application",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.reason-for-application--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
+      "items": [
+        {
+          "_id": "page.reason-for-application--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "I didn't receive the penalty charge notice",
+          "name": "outside_london_penalty_notice_not_received"
+        },
+        {
+          "_id": "page.reason-for-application--checkboxes--checkbox.auto_name__5",
+          "_type": "checkbox",
+          "label": "I made representations to the local authority, but haven't received a reply",
+          "name": "outside_london_local_authority_no_reply"
+        },
+        {
+          "_id": "page.reason-for-application--checkboxes--checkbox.auto_name__6",
+          "_type": "checkbox",
+          "label": "I've appealed to an adjudicator",
+          "name": "outside_london_appealed_to_adjudicator"
+        },
+        {
+          "_id": "page.reason-for-application--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "label": "I've paid the penalty charge",
+          "name": "outside_london_penalty_charge_paid"
+        }
+      ],
+      "legend": "Why are you applying to stop an order for recovery?"
+    }
+  ],
+  "show": {
+    "identifier": "penalty_charge_location",
+    "operator": "is",
+    "value": "penalty_charge_location_outside_london"
+  },
+  "url": "reason-for-applying-outside-london"
+}

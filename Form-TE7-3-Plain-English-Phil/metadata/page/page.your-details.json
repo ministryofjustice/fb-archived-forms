@@ -1,0 +1,82 @@
+{
+  "_id": "page.your-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__1",
+      "_type": "text",
+      "label": "Full name",
+      "name": "respondent_full_name",
+      "show": true
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.your-details--content",
+      "_type": "content",
+      "html": "### Your address"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__2",
+      "_type": "text",
+      "label": "Building and street",
+      "name": "respondent_address_building_and_street_names",
+      "widthClassInput": "30"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__10",
+      "_type": "text",
+      "name": "respondent_address_street_name",
+      "validation": {
+        "required": false
+      }
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__1--3",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "respondent_address_town_or_city",
+      "widthClassInput": "two-thirds"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__2--2",
+      "_type": "text",
+      "label": "County",
+      "name": "respondent_address_county",
+      "validation": {
+        "required": false
+      },
+      "widthClassInput": "two-thirds"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.your-details--text.auto_name__1--4",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "respondent_address_postcode",
+      "widthClassInput": "one-third"
+    }
+  ],
+  "heading": "Your details (the respondent)",
+  "url": "your-details"
+}

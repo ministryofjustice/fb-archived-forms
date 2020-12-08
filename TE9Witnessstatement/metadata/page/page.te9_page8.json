@@ -1,0 +1,53 @@
+{
+  "_id": "page.te9_page8",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.te9_page8--radios.auto_name__26",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.te9_page8--radios.auto_name__26--radio.auto_value__17",
+          "_type": "radio",
+          "label": "I believe the facts stated in this application are true.",
+          "value": "auto_value__17"
+        }
+      ],
+      "name": "auto_name__26"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.te9_page8--text.auto_name__28",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "auto_name__28"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.te9_page8--date.auto_name__27",
+      "_type": "date",
+      "name": "auto_name__27"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.te9_page8--inset",
+      "_type": "inset",
+      "html": "Proceedings for contempt of court may be brought against you if you make or cause to be made a false statement in an application verified by a statement of truth without an honest belief in its truth."
+    }
+  ],
+  "heading": "Statement of truth",
+  "show": {
+    "identifier": "auto_name__35",
+    "operator": "is",
+    "value": "auto_value__19"
+  },
+  "url": "te9_page8"
+}

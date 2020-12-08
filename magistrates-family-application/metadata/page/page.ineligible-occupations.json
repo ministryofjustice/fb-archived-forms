@@ -1,0 +1,33 @@
+{
+  "_id": "page.ineligible-occupations",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.ineligible-occupations--radios.auto_name__23",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.ineligible-occupations--radios.auto_name__23--radio.auto_value__15",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__15"
+        },
+        {
+          "_id": "page.ineligible-occupations--radios.auto_name__23--radio.auto_value__16",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__16"
+        }
+      ],
+      "legend": "Do you work in a restricted occupation?",
+      "name": "auto_name__23"
+    }
+  ],
+  "sectionHeading": "Eligibility",
+  "show": {
+    "identifier": "auto_name__5",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "url": "ineligible-occupations"
+}

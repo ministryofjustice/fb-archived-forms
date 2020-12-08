@@ -1,0 +1,66 @@
+{
+  "_id": "page.penalty-charge-payment-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.penalty-charge-payment-details--date.auto_name__7",
+      "_type": "date",
+      "label": "Payment date",
+      "name": "penalty_charge_payment_date"
+    },
+    {
+      "_id": "page.penalty-charge-payment-details--radios.auto_name__7",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.penalty-charge-payment-details--radios.auto_name__7--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Cash",
+          "value": "penalty_charge_payment_cash"
+        },
+        {
+          "_id": "page.penalty-charge-payment-details--radios.auto_name__7--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Cheque",
+          "value": "penalty_charge_payment_cash_cheque"
+        },
+        {
+          "_id": "page.penalty-charge-payment-details--radios.auto_name__7--radio.auto_value__11",
+          "_type": "radio",
+          "label": "Credit card",
+          "value": "penalty_charge_payment_credit_card"
+        },
+        {
+          "_id": "page.penalty-charge-payment-details--radios.auto_name__7--radio.auto_value__12",
+          "_type": "radio",
+          "label": "Debit card",
+          "value": "penalty_charge_payment_debit_card"
+        }
+      ],
+      "legend": "Payment method",
+      "name": "penalty_charge_payment_method"
+    },
+    {
+      "_id": "page.penalty-charge-payment-details--text.auto_name__7",
+      "_type": "text",
+      "label": "Who you paid",
+      "name": "penalty_charge_payment_recipient"
+    }
+  ],
+  "heading": "Penalty charge payment details",
+  "show": {
+    "any": [
+      {
+        "identifier": "statement_non_london_borough_charge_paid",
+        "operator": "defined"
+      },
+      {
+        "identifier": "london_borough_statement_of_truth",
+        "operator": "is",
+        "value": "statement_london_borough_appeal_not_determined"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "penalty-charge-payment-details"
+}

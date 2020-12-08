@@ -1,0 +1,27 @@
+{
+  "_id": "page.person-completing-form",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.person-completing-form--radios.auto_name__20",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.person-completing-form--radios.auto_name__20--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Myself",
+          "value": "respondent_completing_form"
+        },
+        {
+          "_id": "page.person-completing-form--radios.auto_name__20--radio.auto_value__5--2",
+          "_type": "radio",
+          "label": "On behalf of the respondent",
+          "value": "completing_form_on_behalf_of_respondent"
+        }
+      ],
+      "legend": "Are you completing this form yourself or on behalf of the respondent?",
+      "name": "person_completing_form"
+    }
+  ],
+  "url": "person-completing-form"
+}

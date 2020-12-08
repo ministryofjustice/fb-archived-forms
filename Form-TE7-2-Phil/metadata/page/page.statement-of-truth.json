@@ -1,0 +1,30 @@
+{
+  "_id": "page.statement-of-truth",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.statement-of-truth--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.statement-of-truth--radios.auto_name__3--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Myself",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.statement-of-truth--radios.auto_name__3--radio.auto_value__4",
+          "_type": "radio",
+          "label": "On behalf of the respondent",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "Yourself or respondent?",
+      "name": "statement_of_truth"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Are you completing this form yourself or on behalf of the respondent?",
+  "steps": [],
+  "url": "person-completing-form"
+}

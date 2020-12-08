@@ -1,0 +1,72 @@
+{
+  "_id": "page.check-you-can-apply-2",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.check-you-can-apply-2--radios.auto_name__13",
+      "_type": "radios",
+      "hint": "Select only one option",
+      "items": [
+        {
+          "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__5",
+          "_type": "radio",
+          "label": "I didn't receive the penalty charge notice",
+          "value": "reason_for_applying_no_penalty_notice"
+        },
+        {
+          "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__6",
+          "_type": "radio",
+          "label": "I made representations to the local authority, but haven't received a reply",
+          "value": "reason_for_applying_no_reply_local_authority"
+        },
+        {
+          "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__7",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__7--radios.auto_name__1",
+            "_type": "radios",
+            "items": [
+              {
+                "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__7--radios.auto_name__1--radio.auto_value__1",
+                "_type": "radio",
+                "label": "I haven't received a response to my appeal",
+                "value": "appealed_to_adjudicator_no_response_to_appeal"
+              },
+              {
+                "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__7--radios.auto_name__1--radio.auto_value__2",
+                "_type": "radio",
+                "label": "The adjudicator hadn't made a decision by the time I'd received the charge certificate",
+                "value": "appealed_to_adjudicator_no_appeal_decision"
+              },
+              {
+                "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__7--radios.auto_name__1--radio.auto_value__3",
+                "_type": "radio",
+                "label": "I won the appeal",
+                "value": "won_adjudicator_appeal"
+              }
+            ],
+            "legend": "Select only one option",
+            "name": "appealed_to_adjudicator_options"
+          },
+          "label": "I've appealed to an adjudicator",
+          "value": "reason_for_applying_appealed_to_adjudicator"
+        },
+        {
+          "_id": "page.check-you-can-apply-2--radios.auto_name__13--radio.auto_value__8",
+          "_type": "radio",
+          "label": "I've paid the penalty charge",
+          "value": "reason_for_applying_penalty_charge_paid"
+        }
+      ],
+      "legend": "Tell us why you're applying to stop an order for recovery of an unpaid penalty charge.",
+      "name": "reason_for_applying_unpaid_penalty_charge"
+    }
+  ],
+  "heading": "Why are you applying?",
+  "show": {
+    "identifier": "penalty_location",
+    "operator": "is",
+    "value": "penalty_location_london"
+  },
+  "url": "check-you-can-apply-2"
+}

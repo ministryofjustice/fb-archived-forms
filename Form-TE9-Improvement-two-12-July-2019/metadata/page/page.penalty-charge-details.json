@@ -1,0 +1,24 @@
+{
+  "_id": "page.penalty-charge-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.penalty-charge-details--text.auto_name__1",
+      "_type": "text",
+      "hint": "For example, AB12345678",
+      "label": "Penalty Charge Notice (PCN) number",
+      "name": "penalty_charge_notice_number",
+      "widthClassInput": "one-half"
+    },
+    {
+      "_id": "page.penalty-charge-details--text.auto_name__2",
+      "_type": "text",
+      "hint": "For example, BD51SMR",
+      "label": "Registration number (number plate)",
+      "name": "vehicle_registration_number",
+      "widthClassInput": "one-half"
+    }
+  ],
+  "heading": "Penalty charge details",
+  "url": "penalty-charge-details"
+}

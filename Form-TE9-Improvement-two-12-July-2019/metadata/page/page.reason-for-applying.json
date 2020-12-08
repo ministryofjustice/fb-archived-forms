@@ -1,0 +1,45 @@
+{
+  "_id": "page.reason-for-applying",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.reason-for-applying--radios.auto_name__8",
+      "_type": "radios",
+      "hint": "Select one option",
+      "items": [
+        {
+          "_id": "page.reason-for-applying--radios.auto_name__8--radio.auto_value__3",
+          "_type": "radio",
+          "label": "I didn't receive the penalty charge notice",
+          "value": "london_penalty_notice_not_received"
+        },
+        {
+          "_id": "page.reason-for-applying--radios.auto_name__8--radio.auto_value__4",
+          "_type": "radio",
+          "label": "I made representations to the local authority, but haven't received a reply",
+          "value": "london_local_authority_no_reply"
+        },
+        {
+          "_id": "page.reason-for-applying--radios.auto_name__8--radio.auto_value__5",
+          "_type": "radio",
+          "label": "I've appealed to an adjudicator",
+          "value": "london_appealed_to_adjudicator"
+        },
+        {
+          "_id": "page.reason-for-applying--radios.auto_name__8--radio.auto_value__6",
+          "_type": "radio",
+          "label": "I've paid the penalty charge",
+          "value": "london_penalty_charge_paid"
+        }
+      ],
+      "legend": "Why are you applying to stop an order for recovery?",
+      "name": "london_reason_for_stopping_order"
+    }
+  ],
+  "show": {
+    "identifier": "penalty_charge_location",
+    "operator": "is",
+    "value": "penalty_charge_location_london"
+  },
+  "url": "reason-for-applying-london-borough"
+}

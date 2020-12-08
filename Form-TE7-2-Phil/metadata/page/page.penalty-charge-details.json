@@ -1,0 +1,31 @@
+{
+  "_id": "page.penalty-charge-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.penalty-charge-details--text.auto_name__1",
+      "_type": "text",
+      "label": "Penalty charge number",
+      "name": "penalty_charge_number",
+      "widthClassInput": "one-half"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.penalty-charge-details--text.auto_name__2",
+      "_type": "text",
+      "label": "Vehicle registration number",
+      "name": "vehicle_registration_number",
+      "widthClassInput": "one-half"
+    }
+  ],
+  "heading": "Penalty charge details",
+  "lede": "Make sure you enter all these details correctly from form TE3 Order for recovery of unpaid penalty charge.",
+  "url": "penalty-charge-details"
+}

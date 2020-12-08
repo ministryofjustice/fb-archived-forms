@@ -1,0 +1,31 @@
+{
+  "_id": "page.vehicle-owned-by-company",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.vehicle-owned-by-company--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.vehicle-owned-by-company--radios.auto_name__1--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "owned_by_company_yes"
+        },
+        {
+          "_id": "page.vehicle-owned-by-company--radios.auto_name__1--radio.auto_value__11",
+          "_type": "radio",
+          "label": "No",
+          "value": "owned_by_company_no"
+        }
+      ],
+      "legend": "Is the vehicle owned and registered by a company?",
+      "name": "is_the_vehicle_owned_and_registered_by_a_company"
+    }
+  ],
+  "enableSteps": true,
+  "steps": [
+    "page.company-name"
+  ],
+  "url": "is-the-vehicle-owned-by-a-company"
+}

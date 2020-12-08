@@ -1,0 +1,47 @@
+{
+  "_id": "page.confirmation-on-behalf-of-respondent",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--radios.auto_name__6",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.confirmation-on-behalf-of-respondent--radios.auto_name__6--radio.auto_value__3",
+          "_type": "radio",
+          "label": "The witness believes the facts stated in this application are true",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "Statement of truth",
+      "name": "statement_of_truth"
+    },
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--text.auto_name__7",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "your_full_name"
+    },
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--date.auto_name__8",
+      "_type": "date",
+      "label": "Date",
+      "name": "date"
+    },
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--inset",
+      "_type": "inset",
+      "html": "Proceedings for contempt of court may be brought against you if you make or cause to be made a false statement in an application verified by a statement of truth without an honest belief in its truth."
+    }
+  ],
+  "heading": "Statement of truth",
+  "show": {
+    "identifier": "witness_statement_of_truth",
+    "operator": "is",
+    "value": "auto_value__4"
+  },
+  "url": "confirmation-on-behalf-of-respondent"
+}

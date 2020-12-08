@@ -1,0 +1,71 @@
+{
+  "_id": "page.payment-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.payment-details--date.auto_name__24",
+      "_type": "date",
+      "hint": "For example, 12 11 2018",
+      "label": "Date of payment",
+      "name": "payment_details_date_of_payment"
+    },
+    {
+      "_id": "page.payment-details--radios.auto_name__25",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.payment-details--radios.auto_name__25--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Cash",
+          "value": "payment_method_cash"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__25--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Cheque",
+          "value": "payment_method_cheque"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__25--radio.auto_value__1--3",
+          "_type": "radio",
+          "label": "Credit card",
+          "value": "payment_method_credit_card"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__25--radio.auto_value__1--4",
+          "_type": "radio",
+          "label": "Debit card",
+          "value": "payment_method_debit_card"
+        }
+      ],
+      "legend": "How did you pay?",
+      "name": "payment_method"
+    },
+    {
+      "_id": "page.payment-details--text.auto_name__26",
+      "_type": "text",
+      "label": "What organisation did you pay?",
+      "name": "payment_details_organisation_paid"
+    }
+  ],
+  "heading": "Payment details",
+  "show": {
+    "any": [
+      {
+        "0": {
+          "identifier": "reason_for_applying_penalty_charge_paid",
+          "operator": "defined"
+        },
+        "identifier": "reason_for_applying_penalty_charge_paid",
+        "operator": "defined"
+      },
+      {
+        "identifier": "reason_for_applying_unpaid_penalty_charge",
+        "operator": "is",
+        "value": "reason_for_applying_penalty_charge_paid"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "payment-details"
+}

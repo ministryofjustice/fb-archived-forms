@@ -1,0 +1,13 @@
+{
+  "_id": "page.application-sent",
+  "_type": "page.confirmation",
+  "components": [
+    {
+      "_id": "page.application-sent--content",
+      "_type": "content",
+      "html": "We have sent you a confirmation email.\r\n\r\n## What happens next\r\n\r\nWe’ve sent your application to the Traffic Enforcement Centre.\r\n\r\nThey will contact you either to confirm they have received your application, or to ask for more information.\r\n\r\nWhat did you think of this service? (takes 30 seconds)"
+    }
+  ],
+  "heading": "Application complete",
+  "url": "application-sent"
+}

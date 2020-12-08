@@ -1,0 +1,8 @@
+{
+  "_id": "service",
+  "_isa": "@ministryofjustice/fb-components-core=>service",
+  "_type": "config.service",
+  "name": "Apply to be a magistrate",
+  "phase": "alpha",
+  "phaseText": "This is a new service. Help us improve it."
+}

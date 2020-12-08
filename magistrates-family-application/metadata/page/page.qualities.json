@@ -1,0 +1,14 @@
+{
+  "_id": "page.qualities",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.qualities--textarea.auto_name__9",
+      "_type": "textarea",
+      "hint": "Provide examples of how you meet each of the six key qualities: Good Character; Understanding and Communication; Social Awareness; Maturity and Sound Temperament; Sound Judgement; Commitment and Reliability.",
+      "label": "How do you meet the qualities expected of a magistrate?",
+      "name": "auto_name__9"
+    }
+  ],
+  "url": "qualities"
+}

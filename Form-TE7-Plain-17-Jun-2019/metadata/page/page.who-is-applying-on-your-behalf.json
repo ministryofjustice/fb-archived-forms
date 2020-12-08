@@ -1,0 +1,44 @@
+{
+  "_id": "page.who-is-applying-on-your-behalf",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.who-is-applying-on-your-behalf--radios.auto_name__1",
+      "_type": "radios",
+      "hint": "Select one option.",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.who-is-applying-on-your-behalf--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "an employee of the company or partnership",
+          "show": {
+            "identifier": "is_the_vehicle_owned_and_registered_by_a_company",
+            "operator": "is",
+            "value": "vehicle_owned_and_registered_by_a_company_yes"
+          },
+          "value": "officer-of-the-company"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.who-is-applying-on-your-behalf--radios.auto_name__1--radio.auto_value__3",
+          "_type": "radio",
+          "label": "a litigation friend acting on behalf of a protected party within the meaning of the Mental Capacity Act 2005",
+          "value": "litigation-friend"
+        }
+      ],
+      "legend": "Who is applying on your behalf?",
+      "name": "auto_name__1"
+    }
+  ],
+  "show": {
+    "identifier": "who-is-making-this-application",
+    "operator": "is",
+    "value": "application-made-on-behalf-of-respondent"
+  },
+  "url": "who-is-applying-on-your-behalf"
+}

@@ -1,0 +1,27 @@
+{
+  "_id": "page.confirmation-on-behalf-of-respondent",
+  "_type": "page.form",
+  "body": "The respondent confirms that the information supplied in this application is truthful and accurate to the best of their knowledge.",
+  "components": [
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--text.auto_name__2",
+      "_type": "text",
+      "label": "Full name",
+      "name": "confirmation-on-behalf-of-respondent-full-name"
+    },
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--date.auto_name__3",
+      "_type": "date",
+      "hint": "For example, 27 6 2019",
+      "label": "Date",
+      "name": "confirmation-on-behalf-of-respondent-date"
+    }
+  ],
+  "heading": "Confirmation",
+  "show": {
+    "identifier": "who-is-making-this-application",
+    "operator": "is",
+    "value": "application-made-on-behalf-of-respondent"
+  },
+  "url": "confirmation-on-behalf-of-respondent"
+}

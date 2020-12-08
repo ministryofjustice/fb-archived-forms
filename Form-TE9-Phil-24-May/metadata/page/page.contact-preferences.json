@@ -1,0 +1,28 @@
+{
+  "_id": "page.contact-preferences",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.contact-preferences--radios.auto_name__12",
+      "_type": "radios",
+      "hint": "Choose only one option",
+      "items": [
+        {
+          "_id": "page.contact-preferences--radios.auto_name__12--radio.auto_value__20",
+          "_type": "radio",
+          "label": "Email",
+          "value": "contact_preference_email"
+        },
+        {
+          "_id": "page.contact-preferences--radios.auto_name__12--radio.auto_value__21",
+          "_type": "radio",
+          "label": "Phone",
+          "value": "contact_preference_phone"
+        }
+      ],
+      "legend": "How would you prefer to be contacted about your case?",
+      "name": "contact_preference"
+    }
+  ],
+  "url": "contact-preferences"
+}

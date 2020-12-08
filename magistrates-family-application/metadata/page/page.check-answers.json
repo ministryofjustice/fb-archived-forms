@@ -1,0 +1,9 @@
+{
+  "_id": "page.check-answers",
+  "_type": "page.summary",
+  "components": [],
+  "sendBody": "The information that I have given in this application is true and complete to the best of my knowledge and belief. I understand that my application is liable to be rejected if I knowingly fail to disclose relevant information.",
+  "sendHeading": "Declaration",
+  "show": true,
+  "url": "check-answers"
+}

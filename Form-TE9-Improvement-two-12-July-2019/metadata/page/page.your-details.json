@@ -1,0 +1,60 @@
+{
+  "_id": "page.your-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.your-details--text.auto_name__14",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "respondent_full_name"
+    },
+    {
+      "_id": "page.your-details--content",
+      "_type": "content",
+      "html": "### Your address"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__15",
+      "_type": "text",
+      "label": "Building and street",
+      "name": "respondent_address_building_street",
+      "widthClassInput": "30"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__16",
+      "_type": "text",
+      "label": "Second line of address",
+      "name": "respondent_second_line_of_address",
+      "validation": {
+        "required": false
+      },
+      "widthClassInput": "30"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__17",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "respondent_address_town_city",
+      "widthClassInput": "two-thirds"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__18",
+      "_type": "text",
+      "label": "County",
+      "name": "respondent_address_county",
+      "validation": {
+        "required": false
+      },
+      "widthClassInput": "two-thirds"
+    },
+    {
+      "_id": "page.your-details--text.auto_name__19",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "respondent_address_postcode",
+      "widthClassInput": "10"
+    }
+  ],
+  "heading": "Your details (the respondent)",
+  "url": "your-details"
+}

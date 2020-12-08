@@ -1,0 +1,80 @@
+{
+  "_id": "page.payment-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.payment-details--date.auto_name__10",
+      "_type": "date",
+      "hint": "For example, 12 11 2018",
+      "label": "Date you paid",
+      "name": "notice_payment_date"
+    },
+    {
+      "_id": "page.payment-details--radios.auto_name__11",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.payment-details--radios.auto_name__11--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Cash",
+          "value": "notice_payment_method_cash"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__11--radio.auto_value__5--2",
+          "_type": "radio",
+          "label": "Cheque",
+          "value": "notice_payment_method_cheque"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__11--radio.auto_value__5--3",
+          "_type": "radio",
+          "label": "Debit card",
+          "value": "notice_payment_method_debit_card"
+        },
+        {
+          "_id": "page.payment-details--radios.auto_name__11--radio.auto_value__5--4",
+          "_type": "radio",
+          "label": "Credit card",
+          "value": "notice_payment_method_credit_card"
+        }
+      ],
+      "legend": "Payment method",
+      "name": "notice_payment_method"
+    },
+    {
+      "_id": "page.payment-details--text.auto_name__12",
+      "_type": "text",
+      "label": "What organisation did you pay?",
+      "name": "notice_payment_organisation"
+    }
+  ],
+  "heading": "Payment details",
+  "show": {
+    "any": [
+      {
+        "0": {
+          "0": {
+            "0": {
+              "identifier": "london_reason_for_stopping_order",
+              "operator": "is",
+              "value": "london_penalty_charge_paid"
+            }
+          },
+          "identifier": "london_reason_for_stopping_order",
+          "operator": "is",
+          "value": "london_penalty_charge_paid"
+        },
+        "identifier": "outside_london_penalty_charge_paid",
+        "operator": "defined"
+      },
+      {
+        "identifier": "london_reason_for_stopping_order",
+        "operator": "is",
+        "value": "london_penalty_charge_paid"
+      },
+      {}
+    ],
+    "conditionsType": "any"
+  },
+  "url": "payment-details"
+}

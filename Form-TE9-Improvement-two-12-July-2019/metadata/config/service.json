@@ -1,0 +1,10 @@
+{
+  "_id": "service",
+  "_isa": "@ministryofjustice/fb-components-core=>service",
+  "_type": "config.service",
+  "code": "TE9",
+  "name": "TE9: Apply to stop an order for recovery of an unpaid penalty charge",
+  "pdfHeading": "TE9: Apply to stop an order for recovery of an unpaid penalty charge",
+  "phase": "none",
+  "phaseText": "Service phase text goes here"
+}

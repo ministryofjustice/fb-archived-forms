@@ -1,0 +1,27 @@
+{
+  "_id": "page.police-caution",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.police-caution--radios.auto_name__12",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.police-caution--radios.auto_name__12--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__10"
+        },
+        {
+          "_id": "page.police-caution--radios.auto_name__12--radio.auto_value__11",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__11"
+        }
+      ],
+      "legend": "Have you ever received a police caution?",
+      "name": "auto_name__12"
+    }
+  ],
+  "url": "police-caution"
+}

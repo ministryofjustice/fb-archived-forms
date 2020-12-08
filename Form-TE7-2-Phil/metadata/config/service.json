@@ -1,0 +1,8 @@
+{
+  "_id": "service",
+  "_type": "config.service",
+  "name": "TE7: Application to file a statement out of time or extension of time (parking)",
+  "phase": "alpha",
+  "phaseText": "Service phase text goes here",
+  "_isa": "@ministryofjustice/fb-components-core=>service"
+}

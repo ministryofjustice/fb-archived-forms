@@ -1,0 +1,32 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "body": "You do not need legal training or formal qualifications to become a magistrate. \r\n\r\nYou must be able to:\r\n\r\n* commit to up 13 days a year to sit as a magistrate\r\n* be over 18 years old\r\n* demonstrate you have the key qualities to be a magistrate\r\n* not be seeking asylum or leave to remain\r\n\r\nYou will be expected to live or work near the area you want to serve and be able to show a good understanding of local social issues.\r\n\r\nFind out more about the [role of a magistrate](https://www.gov.uk/government/publications/become-a-magistrate-application-form-guidance-notes).",
+  "heading": "Apply to be a magistrate",
+  "lede": "Use this form to apply to be a magistrate in England and Wales.",
+  "steps": [
+    "page.choose-area",
+    "page.age",
+    "page.eligibility",
+    "page.over-65",
+    "page.under-18",
+    "page.employment",
+    "page.ineligible-occupations",
+    "page.employer-agreement",
+    "page.details--2",
+    "page.statement",
+    "page.qualities",
+    "page.previous-application",
+    "page.convictions",
+    "page.police-caution",
+    "page.driving-offences",
+    "page.credibility",
+    "page.voluntary-work",
+    "page.details",
+    "page.diversity",
+    "page.hear-about-us",
+    "page.check-answers",
+    "page.confirmation"
+  ],
+  "url": "/"
+}

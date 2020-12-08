@@ -1,0 +1,28 @@
+{
+  "_id": "page.contact-preferences",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.contact-preferences--radios.auto_name__34",
+      "_type": "radios",
+      "hint": "Choose only one option",
+      "items": [
+        {
+          "_id": "page.contact-preferences--radios.auto_name__34--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Email",
+          "value": "contact_preference_email"
+        },
+        {
+          "_id": "page.contact-preferences--radios.auto_name__34--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Text message",
+          "value": "contact_preference_text_message"
+        }
+      ],
+      "legend": "How would you prefer to be contacted about your application?",
+      "name": "contact_preference"
+    }
+  ],
+  "url": "contact-preferences"
+}

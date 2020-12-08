@@ -1,0 +1,32 @@
+{
+  "_id": "page.provide-evidence",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.provide-evidence--fileupload.auto_name__1",
+      "_type": "fileupload",
+      "hint": "For example, a photo or copy of a court order or lasting power of attorney (LPA)",
+      "label": "Provide evidence that you can act on the respondent's behalf",
+      "name": "auto_name__1",
+      "validation": {
+        "required": false
+      }
+    }
+  ],
+  "show": {
+    "any": [
+      {
+        "identifier": "person_completing_form_role",
+        "operator": "is",
+        "value": "litigation_friend"
+      },
+      {
+        "identifier": "person_completing_form",
+        "operator": "is",
+        "value": "completing_form_on_behalf_of_respondent"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "litigation-friend-evidence"
+}

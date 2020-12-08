@@ -1,0 +1,41 @@
+{
+  "_id": "page.choose-area",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.choose-area--autocomplete.auto_name__1",
+      "_type": "autocomplete",
+      "hint": "You are expected to be living or working in, or reasonably close to, the area in which they wish to serve.",
+      "items": [
+        {
+          "_id": "page.choose-area--autocomplete.auto_name__1--option",
+          "_type": "option",
+          "text": "Birmingham and Solihull, Black Country and Coventry and Warwickshire (Family)",
+          "textSummary": "Birmingham and Solihull, Black Country and Coventry and Warwickshire (Family)",
+          "value": "Birmingham and Solihull, Black Country and Coventry and Warwickshire (Family)"
+        },
+        {
+          "_id": "page.choose-area--autocomplete.auto_name__1--option--2",
+          "_type": "option",
+          "text": "Cleveland and County Durham and Darlington (Criminal)",
+          "textSummary": "Cleveland and County Durham and Darlington (Criminal)",
+          "value": "Cleveland and County Durham and Darlington (Criminal)"
+        },
+        {
+          "_id": "page.choose-area--autocomplete.auto_name__1--option--3",
+          "_type": "option",
+          "text": "Cheshire (Family)",
+          "textSummary": "Cleveland and County Durham and Darlington (Criminal)",
+          "value": "Birmingham and Solihull, Black Country and Coventry and Warwickshire (Family)"
+        }
+      ],
+      "label": "Where is the vacancy?",
+      "minLength": 3,
+      "name": "auto_name__1",
+      "validation": {
+        "required": true
+      }
+    }
+  ],
+  "url": "choose-area"
+}

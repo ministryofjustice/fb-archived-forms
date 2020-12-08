@@ -1,0 +1,19 @@
+{
+  "_id": "page.your-email-address",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.your-email-address--email.auto_name__10",
+      "_type": "email",
+      "hint": "We’ll only use this to contact you about your application",
+      "label": "Your email",
+      "name": "your_email_address"
+    }
+  ],
+  "show": {
+    "identifier": "applicant_contact_preference",
+    "operator": "is",
+    "value": "contact_preference_email"
+  },
+  "url": "your-email-address"
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "components": [
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--content--2",
+      "_type": "content",
+      "html": "### Before you start ###\r\n\r\nTo complete this form you will need the form TE3 Order for recovery of unpaid penalty charge."
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "If you have any difficulty completing this form you can contact the Traffic Enforcement Centre on 0300 123 1059."
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content--3",
+      "_type": "content",
+      "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
+    }
+  ],
+  "heading": "TE9: Witness statement - unpaid penalty charge",
+  "lede": "You  must file this statement by the date shown on the Order for  recovery (form TE3)",
+  "steps": [
+    "page.te9_page2",
+    "page.te9_page3",
+    "page.te9_page4",
+    "page.te9_page5",
+    "page.te9_page6",
+    "page.te9_page7",
+    "page.te9_7b",
+    "page.te9_page4a",
+    "page.te9_page8",
+    "page.TE9_page12",
+    "page.te9_page9",
+    "page.te9_page9a",
+    "page.te9_page9b",
+    "page.te9_page10",
+    "page.te9_page11"
+  ],
+  "url": "/"
+}

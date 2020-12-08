@@ -1,0 +1,38 @@
+{
+  "_id": "page.eligibility",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.eligibility--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.eligibility--radios.auto_name__3--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.eligibility--radios.auto_name__3--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__2"
+        }
+      ],
+      "legend": "Are you seeking asylum or applying for indefinite leave to remain?",
+      "name": "auto_name__3"
+    }
+  ],
+  "sectionHeading": "Eligibility",
+  "show": {
+    "0": {
+      "identifier": "auto_name__22",
+      "operator": "is",
+      "value": "auto_value__13"
+    },
+    "identifier": "auto_name__22",
+    "operator": "is",
+    "value": "auto_value__13"
+  },
+  "url": "eligibility"
+}

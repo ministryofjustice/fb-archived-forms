@@ -1,0 +1,8 @@
+{
+  "_id": "service",
+  "_type": "config.service",
+  "name": "Form TE7: Ask for more time to challenge an unpaid parking penalty charge",
+  "phase": "alpha",
+  "phaseText": "Service phase text goes here",
+  "_isa": "@ministryofjustice/fb-components-core=>service"
+}

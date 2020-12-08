@@ -1,0 +1,62 @@
+{
+  "_id": "page.evidence-to-support-application",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.evidence-to-support-application--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.evidence-to-support-application--fieldset--fileupload.auto_name__13",
+          "_type": "fileupload",
+          "hint": "You can upload your receipts or appeal letter as scanned copies or photos of the originals",
+          "label": "Application evidence",
+          "name": "application_evidence",
+          "validation": {
+            "required": false
+          }
+        }
+      ],
+      "legend": "File",
+      "namespace": "namespace_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add another file",
+      "repeatableDelete": "Remove",
+      "repeatableHeading": "Upload any evidence you have to support your application",
+      "repeatableMaximum": 10
+    }
+  ],
+  "show": {
+    "any": [
+      {
+        "identifier": "outside_london_local_authority_no_reply",
+        "operator": "defined"
+      },
+      {
+        "identifier": "outside_london_appealed_to_adjudicator",
+        "operator": "defined"
+      },
+      {
+        "identifier": "london_reason_for_stopping_order",
+        "operator": "is",
+        "value": "london_local_authority_no_reply"
+      },
+      {
+        "identifier": "london_reason_for_stopping_order",
+        "operator": "is",
+        "value": "london_appealed_to_adjudicator"
+      },
+      {
+        "identifier": "london_reason_for_stopping_order",
+        "operator": "is",
+        "value": "london_penalty_charge_paid"
+      },
+      {
+        "identifier": "outside_london_penalty_charge_paid",
+        "operator": "defined"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "evidence-to-support-application"
+}

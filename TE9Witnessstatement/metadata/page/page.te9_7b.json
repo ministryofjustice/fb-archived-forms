@@ -1,0 +1,27 @@
+{
+  "_id": "page.te9_7b",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.te9_7b--radios.auto_name__35",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.te9_7b--radios.auto_name__35--radio.auto_value__19",
+          "_type": "radio",
+          "label": "Myself",
+          "value": "auto_value__19"
+        },
+        {
+          "_id": "page.te9_7b--radios.auto_name__35--radio.auto_value__20",
+          "_type": "radio",
+          "label": "On behalf of the respondent",
+          "value": "auto_value__20"
+        }
+      ],
+      "name": "auto_name__35"
+    }
+  ],
+  "heading": "Are you completing this form yourself or on behalf of the respondent?",
+  "url": "te9_7b"
+}

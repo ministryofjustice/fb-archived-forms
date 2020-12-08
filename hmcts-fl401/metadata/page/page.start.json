@@ -1,0 +1,24 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "heading": "Apply for a non-molestation order or an occupation order",
+  "lede": "If you are an individual applicant, you MUST NOT serve the documents yourself on the person you are seeking the order against.",
+  "steps": [
+    "page.about-you",
+    "page.your-details",
+    "page.solicitor-details",
+    "page.about-the-respondent",
+    "page.orders-you-are-applying-for",
+    "page.relationship-to-the-respondent",
+    "page.occupation-order-application",
+    "page.apply-for-occupation-order",
+    "page.home-rights",
+    "page.additional-orders-dwelling-house",
+    "page.mortgage-rent",
+    "page.at-the-court",
+    "page.other-information",
+    "page.other-proceedings-and-orders",
+    "page.check-your-answers"
+  ],
+  "url": "/"
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "page.respondent-statement-of-truth",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.respondent-statement-of-truth--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.respondent-statement-of-truth--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "label": "I believe the facts stated in this application are true",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "Statement of truth",
+      "name": "witness_statement_of_truth"
+    },
+    {
+      "_id": "page.respondent-statement-of-truth--text.auto_name__1",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "your_full_name"
+    },
+    {
+      "_id": "page.respondent-statement-of-truth--date.auto_name__1",
+      "_type": "date",
+      "label": "Date",
+      "name": "date"
+    },
+    {
+      "_id": "page.respondent-statement-of-truth--inset",
+      "_type": "inset",
+      "html": "Proceedings for contempt of court may be brought against you if you make or cause to be made a false statement in an application verified by a statement of truth without an honest belief in its truth."
+    }
+  ],
+  "heading": "Statement of truth (witness)",
+  "show": {
+    "identifier": "statement_of_truth",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "url": "respondent-statement-of-truth"
+}

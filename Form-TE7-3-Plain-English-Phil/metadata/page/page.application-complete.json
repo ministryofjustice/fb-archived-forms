@@ -1,0 +1,13 @@
+{
+  "_id": "page.application-complete",
+  "_type": "page.confirmation",
+  "components": [
+    {
+      "_id": "page.application-complete--content",
+      "_type": "content",
+      "html": "### Where to send your completed application\r\n\r\nYou can send your completed application to us by post or email. Our email is [tec@justice.gov.uk](tec@justice.gov.uk).\r\n\r\n**Post your application**\r\n \r\nTraffic Enforcement Centre   \r\nCounty Court Business Centre   \r\nSt Katherine’s House      \r\n21 – 27 St Katherine’s Street   \r\nNorthampton, NN1 2LH"
+    }
+  ],
+  "heading": "Application complete",
+  "url": "application-complete"
+}

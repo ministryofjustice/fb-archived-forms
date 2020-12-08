@@ -1,0 +1,33 @@
+{
+  "_id": "page.is-the-vehicle-owned-and-registered-by-a-company",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.is-the-vehicle-owned-and-registered-by-a-company--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.is-the-vehicle-owned-and-registered-by-a-company--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.is-the-vehicle-owned-and-registered-by-a-company--radios.auto_name__1--radio.auto_value__1--text.auto_name__1",
+            "_type": "text",
+            "label": "Company name",
+            "name": "company_name"
+          },
+          "label": "Yes",
+          "value": "vehicle_owned_and_registered_by_a_company_yes"
+        },
+        {
+          "_id": "page.is-the-vehicle-owned-and-registered-by-a-company--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "No",
+          "value": "vehicle_owned_and_registered_by_a_company_no"
+        }
+      ],
+      "legend": "Is the vehicle owned and registered by a company or partnership?",
+      "name": "is_the_vehicle_owned_and_registered_by_a_company"
+    }
+  ],
+  "url": "is-the-vehicle-owned-and-registered-by-a-company"
+}

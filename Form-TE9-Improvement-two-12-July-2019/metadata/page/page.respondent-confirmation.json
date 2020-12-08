@@ -1,0 +1,27 @@
+{
+  "_id": "page.respondent-confirmation",
+  "_type": "page.form",
+  "body": "I confirm that the information supplied in this application is truthful and accurate to the best of my knowledge.",
+  "components": [
+    {
+      "_id": "page.respondent-confirmation--text.auto_name__24",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "respondent_confirmation_full_name"
+    },
+    {
+      "_id": "page.respondent-confirmation--date.auto_name__25",
+      "_type": "date",
+      "hint": "For example, 27 6 2019",
+      "label": "Date",
+      "name": "respondent_confirmation_date"
+    }
+  ],
+  "heading": "Confirmation (respondent)",
+  "show": {
+    "identifier": "person_completing_form",
+    "operator": "is",
+    "value": "respondent_completing_form"
+  },
+  "url": "respondent-confirmation"
+}

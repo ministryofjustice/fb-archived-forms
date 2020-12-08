@@ -1,0 +1,19 @@
+{
+  "_id": "page.reason-for-filing-outside-of-time",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.reason-for-filing-outside-of-time--textarea.auto_name__1",
+      "_type": "textarea",
+      "label": "Give reasons why you are filing outside the given time",
+      "name": "outside_the_given_time_reason"
+    }
+  ],
+  "heading": "Why are you outside the given time?",
+  "show": {
+    "identifier": "are_you_out_of_time_or_need_more_time",
+    "operator": "is",
+    "value": "out_of_time"
+  },
+  "url": "/reason-for-filing-outside-the-given-time"
+}

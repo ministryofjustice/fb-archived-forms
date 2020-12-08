@@ -1,0 +1,52 @@
+{
+  "_id": "page.person-confirming-application",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.person-confirming-application--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.person-confirming-application--radios.auto_name__3--radio.auto_value__5",
+          "_type": "radio",
+          "label": "an officer of the company",
+          "value": "officer_of_the_company"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.person-confirming-application--radios.auto_name__3--radio.auto_value__6",
+          "_type": "radio",
+          "label": "a partner of the firm",
+          "value": "partner_of_the_firm"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.person-confirming-application--radios.auto_name__3--radio.auto_value__7",
+          "_type": "radio",
+          "label": "a litigation friend",
+          "value": "a_litigation_friend"
+        }
+      ],
+      "legend": "Select one option.",
+      "name": "person_applying_on_behalf_of_the_respondent"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Who is applying on behalf of the respondent?",
+  "show": {
+    "identifier": "select_myself_or_on_behalf_of_respondent",
+    "operator": "is",
+    "value": "completing_form_on_behalf_of_respondent"
+  },
+  "steps": [
+    "page.confirmation-on-behalf-of-respondent"
+  ],
+  "url": "/person-confirming-application"
+}

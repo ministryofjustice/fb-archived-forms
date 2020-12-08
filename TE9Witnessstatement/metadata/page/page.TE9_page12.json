@@ -1,0 +1,43 @@
+{
+  "_id": "page.TE9_page12",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.TE9_page12--radios.auto_name__32",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.TE9_page12--radios.auto_name__32--radio.auto_value__18",
+          "_type": "radio",
+          "label": "The witness believes that the facts stated in the application are true.",
+          "value": "auto_value__18"
+        }
+      ],
+      "name": "auto_name__32"
+    },
+    {
+      "_id": "page.TE9_page12--text.auto_name__33",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "auto_name__33"
+    },
+    {
+      "_id": "page.TE9_page12--date.auto_name__34",
+      "_type": "date",
+      "label": "Date",
+      "name": "auto_name__34"
+    },
+    {
+      "_id": "page.TE9_page12--inset",
+      "_type": "inset",
+      "html": "Proceedings for contempt of court may be brought against you if you make or cause to be made a false statement in an application verified by a statement of truth without an honest belief in its truth."
+    }
+  ],
+  "heading": "Statement of truth",
+  "show": {
+    "identifier": "auto_name__35",
+    "operator": "is",
+    "value": "auto_value__20"
+  },
+  "url": "TE9_page8a"
+}

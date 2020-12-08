@@ -1,0 +1,14 @@
+{
+  "_id": "page.over-65",
+  "_type": "page.content",
+  "actionType": "continue",
+  "body": "This is because magistrates sit in a part-time capacity and generally have little previous experience of the court system, so will require training, mentoring and the opportunity to gain experience. There is a general expectation that magistrates will be able to sit for at least five years before retirement.",
+  "heading": "You may not be able to sit as a magistrate if you're over 65",
+  "lede": "The Senior Presiding Judge will not generally appoint anyone over 65 (magistrates retire automatically at 70).",
+  "show": {
+    "identifier": "auto_name__22",
+    "operator": "is",
+    "value": "auto_value__14"
+  },
+  "url": "over-65"
+}

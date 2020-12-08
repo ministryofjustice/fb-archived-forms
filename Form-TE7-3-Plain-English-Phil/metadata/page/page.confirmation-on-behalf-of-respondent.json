@@ -1,0 +1,45 @@
+{
+  "_id": "page.confirmation-on-behalf-of-respondent",
+  "_type": "page.form",
+  "body": "The respondent confirms that the information supplied in this application is truthful and accurate to the best of their knowledge.",
+  "components": [
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--radios.auto_name__6",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.confirmation-on-behalf-of-respondent--radios.auto_name__6--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.confirmation-on-behalf-of-respondent--radios.auto_name__6--radio.auto_value__4",
+          "_type": "radio",
+          "label": "No, the respondent wants to [amend this application](/)",
+          "value": "auto_value__4"
+        }
+      ],
+      "name": "auto_name__6"
+    },
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--text.auto_name__7",
+      "_type": "text",
+      "label": "Your full name",
+      "name": "auto_name__7"
+    },
+    {
+      "_id": "page.confirmation-on-behalf-of-respondent--date.auto_name__8",
+      "_type": "date",
+      "label": "Date",
+      "name": "auto_name__8"
+    }
+  ],
+  "heading": "Confirmation on behalf of the respondent",
+  "show": {
+    "identifier": "select_myself_or_on_behalf_of_respondent",
+    "operator": "is",
+    "value": "completing_form_on_behalf_of_respondent"
+  },
+  "url": "confirmation-on-behalf-of-respondent"
+}

@@ -1,0 +1,38 @@
+{
+  "_id": "page.te9_page4a",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.te9_page4a--radios.auto_name__36",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.te9_page4a--radios.auto_name__36--radio.auto_value__21",
+          "_type": "radio",
+          "label": "an officer of the company",
+          "value": "auto_value__21"
+        },
+        {
+          "_id": "page.te9_page4a--radios.auto_name__36--radio.auto_value__24",
+          "_type": "radio",
+          "label": "a partner of the firm",
+          "value": "auto_value__24"
+        },
+        {
+          "_id": "page.te9_page4a--radios.auto_name__36--radio.auto_value__25",
+          "_type": "radio",
+          "label": "a litigation friend acting on behalf of a protected party within the meaning of the Mental Capacity Act 2005",
+          "value": "auto_value__25"
+        }
+      ],
+      "legend": "Who is signing on behalf of the respondent?",
+      "name": "auto_name__36"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__35",
+    "operator": "is",
+    "value": "auto_value__20"
+  },
+  "url": "te9_page7c"
+}

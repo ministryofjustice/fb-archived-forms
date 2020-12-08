@@ -1,0 +1,42 @@
+{
+  "_id": "page.litigation-friend-evidence",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.litigation-friend-evidence--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.litigation-friend-evidence--fieldset--fileupload.auto_name__23",
+          "_type": "fileupload",
+          "hint": "You can upload a court order or lasting power of attorney (LPA) as a copy or photo of the original",
+          "label": "Evidence",
+          "name": "evidence_respondent_behalf"
+        }
+      ],
+      "legend": "File",
+      "namespace": "namespace_auto__2",
+      "repeatable": true,
+      "repeatableAdd": "Add another file",
+      "repeatableDelete": "Remove",
+      "repeatableHeading": "Provide evidence that you can act on the respondent's behalf",
+      "repeatableMaximum": 10
+    }
+  ],
+  "show": {
+    "any": [
+      {
+        "identifier": "role_of_representative",
+        "operator": "is",
+        "value": "role_of_representative_litigation_friend"
+      },
+      {
+        "identifier": "vehicle_owned_company_partnership",
+        "operator": "is",
+        "value": "vehicle_company_owned_no"
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "litigation-friend-evidence"
+}

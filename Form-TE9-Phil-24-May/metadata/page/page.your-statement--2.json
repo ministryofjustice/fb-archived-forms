@@ -1,0 +1,59 @@
+{
+  "_id": "page.your-statement--2",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.your-statement--2--radios.auto_name__6",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.your-statement--2--radios.auto_name__6--radio.auto_value__5",
+          "_type": "radio",
+          "label": "I did not receive the Notice to owner/Penalty charge notice",
+          "value": "statement_london_borough_no_penalty_charge_notice"
+        },
+        {
+          "_id": "page.your-statement--2--radios.auto_name__6--radio.auto_value__6",
+          "_type": "radio",
+          "label": "I made representations about the penalty charge to the enforcing authority concerned within 28 days of the service of the Notice to owner, but did not receive a rejection notice",
+          "value": "statement_london_borough_no_rejection_notice"
+        },
+        {
+          "_id": "page.your-statement--2--radios.auto_name__6--radio.auto_value__7",
+          "_type": "radio",
+          "label": "I appealed to an adjudicator against the Charging Authority's decision to reject my representation, within 28 days of service of the rejection notice, but have had no response to my appeal",
+          "value": "statement_london_borough_no_appeal_response"
+        },
+        {
+          "_id": "page.your-statement--2--radios.auto_name__6--radio.auto_value__8--2",
+          "_type": "radio",
+          "label": "I appealed to an adjudicator against the Charging Authority's decision to reject my representation, within 28 days of service of the rejection notice, but the appeal had not been determined by the time the charge certificate had been served.",
+          "value": "statement_london_borough_appeal_not_determined"
+        },
+        {
+          "_id": "page.your-statement--2--radios.auto_name__6--radio.auto_value__8--3",
+          "_type": "radio",
+          "label": "I appealed to an adjudicator against the Charging Authority's decision to reject my representation, and the appeal was determined in my favour.",
+          "value": "statement_london_borough_won_appeal"
+        },
+        {
+          "_id": "page.your-statement--2--radios.auto_name__6--radio.auto_value__8",
+          "_type": "radio",
+          "label": "The penalty charge has been paid in full",
+          "value": "statement_london_borough_charge_paid"
+        }
+      ],
+      "legend": "Choose only one option",
+      "name": "london_borough_statement_of_truth"
+    }
+  ],
+  "enableSteps": true,
+  "heading": "Your statement",
+  "show": {
+    "identifier": "london_borough_parking_contravention",
+    "operator": "is",
+    "value": "london_borough_parking_contravention_yes"
+  },
+  "steps": [],
+  "url": "your-statement-2"
+}

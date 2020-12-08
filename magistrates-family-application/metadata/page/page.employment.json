@@ -1,0 +1,33 @@
+{
+  "_id": "page.employment",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.employment--radios.auto_name__5",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.employment--radios.auto_name__5--radio.auto_value__3",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.employment--radios.auto_name__5--radio.auto_value__4",
+          "_type": "radio",
+          "label": "No",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "Are you in employment?",
+      "name": "auto_name__5"
+    }
+  ],
+  "sectionHeading": "Eligibility",
+  "show": {
+    "identifier": "auto_name__3",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
+  "url": "employment"
+}

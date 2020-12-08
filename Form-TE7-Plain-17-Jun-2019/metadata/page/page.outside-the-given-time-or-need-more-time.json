@@ -1,0 +1,28 @@
+{
+  "_id": "page.outside-the-given-time-or-need-more-time",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.outside-the-given-time-or-need-more-time--radios.auto_name__1",
+      "_type": "radios",
+      "hint": "Select one option.",
+      "items": [
+        {
+          "_id": "page.outside-the-given-time-or-need-more-time--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "I'm out of time",
+          "value": "filing-as-out-of-time"
+        },
+        {
+          "_id": "page.outside-the-given-time-or-need-more-time--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "I need more time",
+          "value": "filing-as-need-more-time"
+        }
+      ],
+      "legend": "Are you filing because you're out of time or you need more time?",
+      "name": "are-you-out-of-time-or-need-more-time"
+    }
+  ],
+  "url": "outside-the-given-time-or-need-more-time"
+}

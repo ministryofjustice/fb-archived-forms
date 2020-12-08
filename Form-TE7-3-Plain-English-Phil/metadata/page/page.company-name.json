@@ -1,0 +1,19 @@
+{
+  "_id": "page.company-name",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.company-name--text.auto_name__2",
+      "_type": "text",
+      "label": "What is the name of the company?",
+      "name": "name_of_the_company"
+    }
+  ],
+  "heading": "Company name",
+  "show": {
+    "identifier": "is_the_vehicle_owned_and_registered_by_a_company",
+    "operator": "is",
+    "value": "owned_by_company_yes"
+  },
+  "url": "/company-name"
+}

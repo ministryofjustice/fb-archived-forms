@@ -1,0 +1,41 @@
+{
+  "_id": "page.start",
+  "_type": "page.start",
+  "body": "You can apply to stop an order for recovery of an unpaid penalty charge if:\r\n\r\n* you didn't receive the penalty charge notice\r\n* you made representations to the local authority, but haven't received a reply\r\n* you've appealed to an adjudicator, but haven't received a decision, response, or you won the appeal\r\n* you've paid the penalty charge in full\r\n\r\n### Before you start\r\nTo complete this form you'll need the Penalty Charge Notice (PCN) number and the Registration number (number plate) of the vehicle. Both of these numbers are on form TE3.",
+  "components": [
+    {
+      "_id": "page.start--inset",
+      "_type": "inset",
+      "html": "If you have any difficulty completing this form you can contact the Traffic Enforcement Centre on 0300 123 1059."
+    }
+  ],
+  "extraComponents": [
+    {
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
+    }
+  ],
+  "heading": "Apply to stop an order for recovery of an unpaid penalty charge",
+  "steps": [
+    "page.penalty-location",
+    "page.check-you-can-apply",
+    "page.check-you-can-apply-2",
+    "page.payment-details",
+    "page.supporting-evidence",
+    "page.penalty-charge-details",
+    "page.your-details",
+    "page.is-the-vehicle-owned-and-registered-by-a-company",
+    "page.who-is-completing-the-form",
+    "page.what-is-your-role",
+    "page.provide-evidence",
+    "page.respondent-confirmation",
+    "page.confirmation-on-behalf-of-respondent",
+    "page.contact-preferences",
+    "page.your-phone-number",
+    "page.email-address",
+    "page.check-your-answers",
+    "page.application-sent"
+  ],
+  "url": "/"
+}

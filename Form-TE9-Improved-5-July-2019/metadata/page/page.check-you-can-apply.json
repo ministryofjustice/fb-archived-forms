@@ -1,0 +1,87 @@
+{
+  "_id": "page.check-you-can-apply",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.check-you-can-apply--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__1",
+          "_type": "checkbox",
+          "label": "I didn't receive the penalty charge notice",
+          "name": "reason_for_applying_no_penalty_notice"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "I made representations to the local authority, but haven't received a reply",
+          "name": "reason_for_applying_no_reply_local_authority"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__3--radios.auto_name__1",
+            "_type": "radios",
+            "items": [
+              {
+                "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__3--radios.auto_name__1--radio.auto_value__1",
+                "_type": "radio",
+                "label": "I haven't received a response to my appeal",
+                "value": "appealed_to_adjudicator_no_response_to_appeal"
+              },
+              {
+                "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__3--radios.auto_name__1--radio.auto_value__2",
+                "_type": "radio",
+                "label": "The adjudicator hadn't made a decision by the time I'd received the charge certificate",
+                "value": "appealed_to_adjudicator_no_appeal_decision"
+              },
+              {
+                "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__3--radios.auto_name__1--radio.auto_value__3",
+                "_type": "radio",
+                "label": "I won the appeal",
+                "value": "won_adjudicator_appeal"
+              }
+            ],
+            "legend": "Select only one option",
+            "name": "appealed_to_adjudicator_options"
+          },
+          "label": "I've appealed to an adjudicator",
+          "name": "reason_for_applying_appealed_to_adjudicator"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.check-you-can-apply--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "I've paid the penalty charge",
+          "name": "reason_for_applying_penalty_charge_paid"
+        }
+      ],
+      "legend": "Tell us why you're applying to stop an order for recovery of an unpaid penalty charge.",
+      "show": true
+    }
+  ],
+  "heading": "Why are you applying?",
+  "show": {
+    "identifier": "penalty_location",
+    "operator": "is",
+    "value": "penalty_location_other_location"
+  },
+  "url": "check-you-can-apply"
+}
